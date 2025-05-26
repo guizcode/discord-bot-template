@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS users (
+    sequencial_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id TEXT UNIQUE NOT NULL,
+    user_name TEXT
+);
