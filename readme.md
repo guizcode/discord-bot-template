@@ -31,9 +31,9 @@
 2. Rename config.example.json to config.json.
 3. Add your bot token in the designated field.
 4. (optional) Change the bot prefix of your choice.
-5. Run the main.py.
+5. Run the bot!
 ``` bash
-    python3 main.py 
+    python3 src/bot/main.py 
 ```
 
 ## 📝 License

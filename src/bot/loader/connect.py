@@ -20,11 +20,11 @@ class Connect:
 
 
     async def load_pasts(self):
-        for file in os.listdir('commands'):
+        for file in os.listdir('src/bot/commands'):
             if file.endswith('.py'):
                 await self.bot.load_extension(f'commands.{file[:-3]}')
                 
-        for file in os.listdir('events'):
+        for file in os.listdir('src/bot/events'):
             if file.endswith('.py'):
                 await self.bot.load_extension(f'events.{file[:-3]}')
                 

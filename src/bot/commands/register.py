@@ -6,7 +6,7 @@ import sqlite3
 class Register(commands.Cog):
   def __init__(self, bot):
     self.bot = bot
-    self.connection = sqlite3.connect('data/users.db')
+    self.connection = sqlite3.connect('src/bot/data/users.db')
     self.cursor = self.connection.cursor()
     
   @commands.hybrid_command(name='register', description='Register your username and user id in database.')
